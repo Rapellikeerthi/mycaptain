@@ -8,6 +8,6 @@ print("area of the circle =%f" %area)
 
 
 #The extension of the file
-filename=input("Input the Filename:")
-f_extns=filename.split(".")
-print("The extension of the file is:"+repr(f_extns[-1])) #Here extension of the file is given by repr function 
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : ",(f_extns[-1]))
